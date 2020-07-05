@@ -15,6 +15,9 @@
 		3E60785724B1A8A400513D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E60785524B1A8A400513D20 /* LaunchScreen.storyboard */; };
 		3E60786224B1A8A400513D20 /* AnimateListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60786124B1A8A400513D20 /* AnimateListTests.swift */; };
 		3E60786D24B1A8A400513D20 /* AnimateListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60786C24B1A8A400513D20 /* AnimateListUITests.swift */; };
+		3E60788524B1B5B800513D20 /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60788224B1B5B800513D20 /* EasingFunction.swift */; };
+		3E60788624B1B5B800513D20 /* SwiftTween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60788324B1B5B800513D20 /* SwiftTween.swift */; };
+		3E60788724B1B5B800513D20 /* Ease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E60788424B1B5B800513D20 /* Ease.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3E60786824B1A8A400513D20 /* AnimateListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimateListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E60786C24B1A8A400513D20 /* AnimateListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateListUITests.swift; sourceTree = "<group>"; };
 		3E60786E24B1A8A400513D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E60788224B1B5B800513D20 /* EasingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingFunction.swift; sourceTree = "<group>"; };
+		3E60788324B1B5B800513D20 /* SwiftTween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTween.swift; sourceTree = "<group>"; };
+		3E60788424B1B5B800513D20 /* Ease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ease.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		3E60783E24B1A89D00513D20 = {
 			isa = PBXGroup;
 			children = (
+				3E60788124B1B5B800513D20 /* tween */,
 				3E60784924B1A89D00513D20 /* AnimateList */,
 				3E60786024B1A8A400513D20 /* AnimateListTests */,
 				3E60786B24B1A8A400513D20 /* AnimateListUITests */,
@@ -126,6 +133,17 @@
 				3E60786E24B1A8A400513D20 /* Info.plist */,
 			);
 			path = AnimateListUITests;
+			sourceTree = "<group>";
+		};
+		3E60788124B1B5B800513D20 /* tween */ = {
+			isa = PBXGroup;
+			children = (
+				3E60788224B1B5B800513D20 /* EasingFunction.swift */,
+				3E60788324B1B5B800513D20 /* SwiftTween.swift */,
+				3E60788424B1B5B800513D20 /* Ease.swift */,
+			);
+			name = tween;
+			path = AnimateList/tween;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E60788524B1B5B800513D20 /* EasingFunction.swift in Sources */,
 				3E60784F24B1A89D00513D20 /* ViewController.swift in Sources */,
 				3E60784B24B1A89D00513D20 /* AppDelegate.swift in Sources */,
 				3E60784D24B1A89D00513D20 /* SceneDelegate.swift in Sources */,
+				3E60788624B1B5B800513D20 /* SwiftTween.swift in Sources */,
+				3E60788724B1B5B800513D20 /* Ease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
